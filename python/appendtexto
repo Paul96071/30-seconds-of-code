@@ -1,0 +1,16 @@
+destFile = r"C:\Test\Test.txt"
+with open(destFile, 'a') as f:
+    f.write("some appended text")
+  """  
+"""
+destFile = r"C:\Test\Test.txt"
+with open(destFile, 'a') as f:
+    print("The result will be {}".format(Result), file=f)
+    """
+    
+destFile = r"C:\Test\Test.txt"
+with open(destFile, 'a') as f:
+    f.write("\nthe first appended text\r\n")
+    f.write("the second appended text\r\n")
+    f.write("the third appended text\r\n")
+    
