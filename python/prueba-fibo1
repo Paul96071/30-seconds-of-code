@@ -1,0 +1,4 @@
+
+import fibo1
+fibo1.fib(1000)
+fibo1.fib(8
