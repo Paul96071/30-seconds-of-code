@@ -1,0 +1,3 @@
+device = r"C:/Users/patin/Downloads/devices.txt"
+with open(device, 'a') as f:
+    f.write("some appended text")
