@@ -1,0 +1,15 @@
+
+def mensaje():
+    print("Por favor ingrese un nuevo valor ")
+
+mensaje()
+a=input()
+mensaje()
+b=input()
+mensaje()
+c=input()
+mensaje()
+
+d=a+b+c
+
+print(d)
