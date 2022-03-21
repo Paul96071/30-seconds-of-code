@@ -1,0 +1,7 @@
+switch=[]
+lista = ["R1","R2","R3", "R4","R50", "S1"]
+for item in lista:
+    if "S" in item:
+        switch.append(item)
+ 
+print(switch)
