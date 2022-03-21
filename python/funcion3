@@ -1,0 +1,12 @@
+
+def direct(ciudad,barrio,calle):
+    print("La direccion de entrega es: ")
+    print("Ciudad:",ciudad)
+    print("La referencia es: ",barrio)
+    print("La entres es en la calle: ",calle)
+    
+ca=input("Ingrese la calle: ")
+ci=input("Ingrese la ciudad: ")
+ba=input("Ingrese el barrio osector: ")
+#print("\",2)
+direct(ca,ci,ba)
