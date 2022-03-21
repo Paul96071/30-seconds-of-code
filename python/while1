@@ -1,0 +1,6 @@
+numero = input("ingrese el numero al que contare ")
+numero = int(numero)
+contador = 1
+while contador<=numero:
+    print(contador)
+    contador+=1
