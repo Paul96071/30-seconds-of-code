@@ -1,0 +1,7 @@
+def fun2(nombre):
+    print("hola!",nombre)
+
+fun2("Ana")
+fun2("Juan)")
+fun2("Pedro")
+fun2(4)
