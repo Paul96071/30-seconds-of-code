@@ -1,0 +1,21 @@
+nombre = input(" Ingrese su nombre: ")
+apellido = input("Ingrese su apellido ")
+direccion = input("Ingrese su dirección  ")
+edad = int(input("Ingrese su edad: "))
+
+space=" """
+print("Tus nombres son:  "+nombre+space+apellido)
+print("Tugar de residencia es en la ciudad de: "+direccion) 
+
+if edad<13:
+    print('Eres un nino')
+elif edad<16:
+    print('Eres un adolescente')
+elif edad<30:
+    print('Eres un joven')
+elif edad<65:
+    print('Eres un adulto')
+elif edad<100:
+    print('Eres un anciano')
+else:
+    print('no eres de este mundo')
