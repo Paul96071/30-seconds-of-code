@@ -1,0 +1,14 @@
+nombre = input(" Ingrese su nombre: ")
+apellido = input("Ingrese su apellido ")
+direccion = input("Ingrese su dirección")
+edad = input("Ingrese su edad")
+space = " "
+"""
+name="Mauro"
+apellido="Patino"
+location="Cuenca"
+edad = 40
+space=" """
+print("Mis nombres son:  "+nombre+space+apellido)
+print("Mi lugar de residencia es en la ciudad de "+direccion)
+print("Mi edad es: "+str(edad))
