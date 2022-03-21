@@ -1,0 +1,5 @@
+
+numero = 10
+maximo=5
+if numero > maximo:
+    raise Exception('El número a ingresar no debe ser mayor que {} . el valor ingresado fue: {}'.format(maximo,numero))
