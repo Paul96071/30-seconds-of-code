@@ -1,0 +1,29 @@
+
+calificaciones = [10,9,8,7.5,9]
+nombres = ["Ana","Juan","Sofía","Pablo","Tania"]
+mezcla = [True, 10.5, "abc", [0,1,1]]
+
+nombres[2]
+
+
+nombres[-1]
+
+
+#Se tiene la posibilidad de agregar elementos a una lista mediante el método append:
+
+nombres.append("Antonio")
+nombres.append("Ximena")
+print(nombres)
+
+['Ana', 'Juan', 'Sofía', 'Pablo', 'Tania', 'Antonio', 'Ximena']
+
+#El método remove elimina un elemento de una lista:
+
+nombres.remove("Ana")
+print(nombres)
+
+['Juan', 'Sofía', 'Pablo', 'Tania', 'Antonio', 'Ximena']
+
+#Sí el valor pasado al método remove no existe, Python devolverá un ValueError:
+
+#nombres.remove("Jorge")
